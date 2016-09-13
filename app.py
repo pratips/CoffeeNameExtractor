@@ -13,4 +13,4 @@ def get_category(spec):
     return str(test_model(spec))
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host= '0.0.0.0')
